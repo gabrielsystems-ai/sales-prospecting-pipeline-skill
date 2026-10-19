@@ -1,449 +1,226 @@
 <div align="center">
-  Sales Prospecting & Pipeline Skill
 
-A structured AI workflow for finding better prospects, writing evidence-based outreach, advancing sales conversations and managing digital projects.
+<h1>Sales Prospecting &amp; Pipeline Skill</h1>
 
-Find businesses where the digital infrastructure has not kept up with the business itself.
+<p>A structured AI workflow for finding better prospects, writing evidence-based outreach,<br>advancing sales conversations and managing digital projects.</p>
 
+<p><strong>Find businesses where the digital infrastructure has not kept up with the business itself.</strong></p>
 
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-2563eb" alt="License: MIT"></a>
+  <a href="SKILL.md"><img src="https://img.shields.io/badge/Agent-Skill-334155" alt="Agent Skill"></a>
+</p>
 
-
-
-PROSPECT → ANALYSE → CONTACT → QUALIFY → DISCOVER → PROPOSE → CLOSE → DELIVER → EXPAND
+<p><a href="#quick-start">Quick start</a> · <a href="SKILL.md">Read the skill</a> · <a href="#input--output-example">See an example</a></p>
 
 </div>
 
-What this does
+**PROSPECT → ANALYSE → CONTACT → QUALIFY → DISCOVER → PROPOSE → CLOSE → DELIVER → EXPAND**
 
-Most AI prospecting workflows stop at:
+## What this does
 
-Find a business → inspect the website → generate a cold message.
+A basic prospecting workflow might stop at **find a business → inspect the website → generate a cold message**. This skill provides operating instructions for the full sales and delivery journey.
 
-This skill treats prospecting as a complete sales and delivery system.
+It helps an agent:
 
-It helps an AI agent:
+- Research businesses across websites, social profiles and connected links.
+- Separate evidence from assumptions, identify commercially relevant gaps and prioritise leads.
+- Draft concise outreach and advance interested prospects without repeating the pitch.
+- Maintain pipeline context through discovery, pricing, proposals and approval.
+- Switch to project delivery after approval and identify expansion only when justified.
 
-research businesses across websites, social profiles and connected links;
+Designed for freelancers, agencies and consultants selling websites, booking and registration flows, portals, education platforms, memberships, admin systems, integrations and operational web applications.
 
-distinguish verified facts from assumptions;
+## Core idea
 
-identify practical website, system or platform opportunities;
+> **Is there a gap between how developed the business is and the digital infrastructure supporting it?**
 
-prioritise leads based on evidence rather than superficial signals;
+An old website is not automatically an opportunity. A beautiful website does not prove that the customer journey is resolved. Multiple tools do not automatically mean a fragmented operation.
 
-draft short, relevant cold outreach;
+Assess both layers:
 
-advance interested prospects without repeating the original pitch;
+| Presentation / frontend | Digital infrastructure |
+| --- | --- |
+| Visual quality | Booking |
+| Brand credibility | Registration |
+| Mobile experience | Accounts |
+| Information hierarchy | Memberships |
+| Conversion | Payments |
+| Responsiveness | Courses |
+| Trust | Admin workflows |
+| User experience | Integrations |
 
-maintain context through pricing, proposals and approval;
+Preserve systems and technology partners that already work well. Recommend a complementary layer, integration or replacement only when evidence supports it.
 
-switch from sales mode to project delivery once a deal closes;
+## Evidence first
 
-identify expansion opportunities only when there is evidence for them.
+| Label | Meaning | Illustrative finding |
+| --- | --- | --- |
+| **FACT** | Direct observation supported by a source | All inspected “Book Now” buttons lead to the same enquiry form. |
+| **HYPOTHESIS** | Possibility requiring validation | Staff may need additional coordination after submission. |
+| **UNKNOWN** | Not established by available evidence | Whether the form already feeds an automated CRM workflow. |
 
-The goal is not to generate more leads.
+Do not invent pain, budget, buying intent or manual processes. Do not claim “no website” because a Linktree lacks a website link, or criticise existing tools without inspecting their role.
 
-The goal is to identify better opportunities and take the correct next action at every stage.
+## Research beyond the homepage
 
-The core idea
+Cross-check available sources across the journey:
 
-A business does not necessarily need a new website because its current website looks old.
+1. **Social presence:** Instagram/profile → bio and direct links → Linktree/Beacons.
+2. **Public offer:** website → services/programmes → booking/registration.
+3. **Connected operation:** courses/memberships/events → forms/payments/external platforms.
+4. **Customer journey:** inspect the handoffs, recent operating activity and accessible decision maker.
 
-The more useful question is:
+These are cross-checks, not a mandatory linear browsing sequence. Record sources, inspection dates and access limitations. An inaccessible profile is not proof of inactivity.
 
-Is there a gap between how developed the business is and the digital infrastructure supporting it?
+Use proportionate research: inspect enough to support a useful first contact; investigate more deeply for exceptional opportunities, interested prospects and proposals.
 
-A company may already have:
+## Lead classification
 
-a good website;
+| Class | Meaning | Action |
+| --- | --- | --- |
+| **A+** | Strong observable opportunity, active business, accessible decision maker and credible commercial fit | Contact with priority |
+| **A** | Good fit with a useful opportunity and practical entry | Contact |
+| **B** | Potential, but weaker evidence, access or urgency | Do not prioritise |
+| **DISCARD** | Inactive, poor fit, no worthwhile gap, opt-out or uneconomic pursuit | Do not pursue |
 
-active social media;
+| Opportunity type | Typical entry |
+| --- | --- |
+| **Quick Close** | Clear pain, accessible owner and simple approval: website/redesign, enquiry, registration or simple booking |
+| **Standard** | Professional website, information architecture, conversion and practical integrations |
+| **High-Ticket** | Validated operational scope involving accounts, programmes, memberships, dashboards, admin or integrations |
 
-ecommerce;
+**High-Ticket means validated operational complexity and value—not simply a large company.** Neither follower count nor company size establishes budget or ease of closing.
 
-booking software;
+## Never move a warm lead backwards
 
-online courses;
+When a prospect requests an idea, portfolio, examples, price, proposal or implementation details, fulfil that request. Do not return to a cold CTA such as “Would you like me to send you an idea?”
 
-forms;
+> **Does this message advance the deal or repeat something the prospect already knows?**
 
-memberships;
+Progress toward **interest → relevant information → operational question → price → timeline → scope → approval**. Skip questions already answered; ask only what materially changes the project. Use the actual contact date and respect agreed decision dates when planning follow-ups.
 
-multiple locations or programmes.
+See the [warm lead progression example](examples/warm-lead-followup.md).
 
-And still have an important gap somewhere in the customer journey.
+## After approval: delivery mode
 
-The skill investigates both:
+Switch from prospecting to tracking **approved scope, current task, client dependencies, blockers, assets, feedback, revisions, risks and next client communication**.
 
-Presentation
+Classify new requests against the approved agreement:
 
-Digital infrastructure
+| Request category | Treatment |
+| --- | --- |
+| Minor adjustment | Make the targeted correction and verify its effects |
+| Reasonable inclusion | Check against the agreed scope and delivery commitments |
+| Scope expansion | Agree changed scope, price and timeline before implementation |
+| Future phase | Record separately from current launch obligations |
 
-Visual quality
+Preserve approved work and verify desktop/mobile effects when responding to feedback. See the [active project example](examples/active-project.md).
 
-Booking
+## Quick start
 
-Brand credibility
+### 1. Clone the repository
 
-Registration
-
-Mobile experience
-
-Accounts
-
-Information hierarchy
-
-Memberships
-
-Conversion
-
-Payments
-
-Responsiveness
-
-Courses
-
-Trust
-
-Admin workflows
-
-User experience
-
-Integrations
-
-A polished website does not automatically mean the underlying customer journey is strong.
-
-And multiple tools do not automatically mean the operation is broken.
-
-The skill is designed to investigate before recommending.
-
-Evidence first
-
-One of the most important rules in the skill is:
-
-Do not turn signals into facts.
-
-Instead, separate findings into:
-
-FACT
-
-Something directly observed and supported by a source.
-
-All inspected “Book Now” buttons lead to the same enquiry form.
-
-HYPOTHESIS
-
-A reasonable possibility that still requires confirmation.
-
-Staff may need additional coordination after the form is submitted.
-
-UNKNOWN
-
-Something that cannot currently be determined.
-
-Whether the enquiry form already feeds an automated CRM workflow.
-
-This prevents common AI prospecting mistakes such as inventing operational pain, assuming manual processes or claiming a company has no website without properly checking.
-
-Research beyond the homepage
-
-A Linktree without a website link does not mean the business has no website.
-
-The workflow cross-checks available sources such as:
-
-Instagram / social profile
-        ↓
-Bio and direct profile links
-        ↓
-Linktree / Beacons / link hub
-        ↓
-Website
-        ↓
-Services / programmes
-        ↓
-Booking / registration
-        ↓
-Courses / memberships / events
-        ↓
-Forms / payments / external platforms
-        ↓
-Customer journey
-
-Recent business activity and accessible decision-maker information also matter.
-
-Inactive businesses, poor commercial fits and businesses with no meaningful opportunity should be discarded rather than added to the pipeline just to increase lead volume.
-
-Lead classification
-
-The skill deliberately avoids fake numerical probabilities such as:
-
-“82% chance of closing.”
-
-Instead, leads are classified using practical evidence.
-
-Class
-
-Meaning
-
-Action
-
-A+
-
-Strong observable opportunity, active business, accessible decision maker and credible commercial fit
-
-Contact with priority
-
-A
-
-Good fit with a useful opportunity and practical entry
-
-Contact
-
-B
-
-Potential exists, but evidence, access or urgency is weaker
-
-Do not prioritise
-
-DISCARD
-
-Inactive, poor fit, no worthwhile gap or uneconomic pursuit
-
-Do not pursue
-
-Opportunities are also separated by implementation type:
-
-Quick Close — clear and relatively simple website or conversion opportunity.
-
-Standard — professional website, information architecture and practical integrations.
-
-High-Ticket — validated operational scope involving accounts, programmes, memberships, dashboards, admin workflows or integrations.
-
-High-Ticket describes operational scope.
-
-It does not mean “large company”.
-
-Never move a warm lead backwards
-
-Cold prospecting and active sales conversations require different behaviour.
-
-Once a prospect has already requested:
-
-an idea;
-
-examples;
-
-a portfolio;
-
-pricing;
-
-a proposal;
-
-implementation details;
-
-the skill prevents the agent from returning to:
-
-“Would you like me to send you an idea?”
-
-Before every follow-up, it checks what has already been sent.
-
-The next message should advance the conversation toward:
-
-Interest
-   ↓
-Relevant information
-   ↓
-Operational question
-   ↓
-Price
-   ↓
-Timeline
-   ↓
-Scope
-   ↓
-Approval
-
-The core rule is simple:
-
-Does this message advance the deal or repeat something the prospect already knows?
-
-Sales does not end at the close
-
-The same workflow continues after approval.
-
-PROSPECT
-   ↓
-ANALYSE
-   ↓
-CONTACT
-   ↓
-QUALIFY
-   ↓
-DISCOVER
-   ↓
-PROPOSE
-   ↓
-CLOSE
-   ↓
-DELIVER
-   ↓
-EXPAND
-
-Once a prospect becomes a client, the skill changes behaviour.
-
-It begins tracking:
-
-approved scope;
-
-current implementation task;
-
-client dependencies;
-
-assets;
-
-feedback;
-
-blockers;
-
-revisions;
-
-risks;
-
-next client communication.
-
-New requests are classified as:
-
-Minor adjustment
-Reasonable inclusion
-Scope expansion
-Future phase
-
-This helps prevent uncontrolled scope growth while keeping client communication consistent.
-
-Quick start
-
-1. Clone the repository
-
+```bash
 git clone https://github.com/gabrielsystems-ai/sales-prospecting-pipeline-skill.git
+```
 
-2. Add it to your agent environment
+### 2. Add the folder to your agent environment
 
-For Codex, place the skill folder inside your configured skills directory.
+For Codex, place the cloned folder inside your configured skills directory. A common location is:
 
-A common location is:
-
+```text
 ~/.codex/skills/sales-prospecting-pipeline-skill/
+```
 
-Your environment may use a different location, so follow the current loading instructions for your agent.
+The location and loading behaviour vary by environment and configuration; follow your host's current instructions. The clone command downloads the project—it does not install or activate it by itself.
 
-3. Invoke the skill
+For other agents/GPTs, provide [SKILL.md](SKILL.md) as the operating instructions and make the referenced examples available. [agents/openai.yaml](agents/openai.yaml) supplies interface metadata for compatible hosts.
 
-Example:
+### 3. Invoke the skill
 
+```text
 Use $sales-prospecting-pipeline-skill.
 
-Analyse this business using public sources.
+Analyse this business using public sources: [business URL].
 
 Cross-check the website, social profiles and connected links.
 Separate facts from hypotheses.
 Determine whether there is a commercially relevant digital opportunity.
 Recommend one practical entry project.
+```
 
-Example
+Research requires browsing or user-supplied evidence. The skill provides instructions; it does not install integrations, maintain persistent CRM storage or send messages automatically.
 
-Input
+## Input / output example
 
-Analyse this fitness academy.
+**Fictional fixture:** the business, contact roles and observations below are invented training data, not live research.
 
-They have an active Instagram account and appear to run several programmes.
+**Input**
 
-I want to know whether they are a good prospect for a website or digital system project.
+> Analyse the fictional Alderfield Fitness Academy. Supplied inspection notes show three current programmes, recent social activity, a responsive website and registration buttons leading to the same enquiry form. The published owner is directly reachable. Assess the entry opportunity without assuming the backend is manual.
 
-Possible output structure
+**Illustrative output**
 
-# BUSINESS — LOCATION
+```markdown
+# ALDERFIELD FITNESS ACADEMY — FICTIONAL MARKET
 
 Class: A+
 Opportunity Type: Standard
 
 ## CONTACTS
-
-Website:
-Instagram:
-WhatsApp:
-Email:
-Decision maker:
+Website: https://alderfield.example
+Instagram: Recent activity in the supplied fictional inspection notes
+WhatsApp: Unknown; do not generate a wa.me link
+Email: Not supplied
+Decision maker: Owner, directly reachable in the fictional fixture
 
 ## FACTS
-
-- The business currently promotes three active programmes.
-- Registration links lead to an external form.
-- A website exists and is mobile responsive.
-- Instagram has recent operating activity.
+- Three current programmes are listed.
+- The inspected registration buttons lead to the same enquiry form.
+- The website is responsive and social activity is recent.
+Sources: supplied fictional inspection notes; not verified live research.
 
 ## HYPOTHESES / UNKNOWNS
-
-- It is unknown whether form submissions already feed an internal CRM.
-- The registration handoff may create unnecessary friction, but operational impact has not been verified.
+- Programme-specific handoffs may help visitors choose the correct next step.
+- Backend automation, operational impact, budget and buying intent are unknown.
 
 ## MAIN OPPORTUNITY
-
-Improve the programme discovery → registration journey while preserving the existing registration infrastructure where appropriate.
+Clarify programme discovery and registration handoffs.
 
 ## RECOMMENDED ENTRY
+Improve programme pages and the registration journey, retaining working systems.
 
-Website and conversion-flow improvement with registration integration.
+## EXPANSION POTENTIAL
+None established; validate any integration need in discovery.
 
 ## VERDICT
-
 CONTACT WITH PRIORITY
+Priority reflects the supplied fit and access, not a guaranteed sale.
 
 ## OUTREACH
+Hi, I was looking through Alderfield's programmes and noticed the registration
+links lead to the same enquiry form. I had an idea for helping visitors find
+the right programme and next step while retaining your current systems.
+Could I send a short outline?
+```
 
-Short evidence-based outreach focused on the observed registration journey.
+In live research, include source URLs and inspection dates for material facts. Use **B** or **DISCARD** when evidence or commercial fit is insufficient; the output is not always A+.
 
-The skill should not invent revenue, budget, manual work, buying intent or technical limitations that were not observed.
+## Cold outreach
 
-Cold outreach
+**Specific observation → one relevant opportunity and clear benefit → simple CTA**
 
-Cold outreach defaults to a short structure:
+Aim for approximately **35–75 words**. The first contact should earn a meaningful response, not explain the whole project. Avoid feature lists, fake urgency, unsupported criticism and invented ROI.
 
-Specific observation
-        ↓
-One relevant opportunity
-        ↓
-One clear benefit
-        ↓
-Simple CTA
+Adapt to the recipient's language and published contact preferences. A listed phone number does not confirm WhatsApp. See [cold outreach examples](examples/cold-outreach.md) for weak versus useful messages.
 
-Usually around 35–75 words.
+## Pipeline context
 
-The objective is not to explain the entire solution in the first message.
+Keep this record in an authorised private workspace:
 
-The objective is to earn a meaningful response.
-
-Avoid:
-
-Huge diagnosis
-Feature lists
-Generic AI copy
-Fake urgency
-Unverified criticism
-Invented ROI
-
-Prefer:
-
-Specific context
-Plain language
-One useful idea
-One next action
-
-Pipeline context
-
-For an active prospect, the skill keeps track of:
-
+```text
 # BUSINESS / CLIENT
-
 Stage:
 Decision maker:
 Already sent:
@@ -452,225 +229,94 @@ Open questions:
 Current blocker:
 Next action:
 Last contact date:
+```
 
-Stages include:
+| Stage | Relationship |
+| --- | --- |
+| A — PROSPECT | Not contacted |
+| B — COLD CONTACT | Contacted; no confirmed interest |
+| C — WARM / INTERESTED | Requested an idea, information or buying discussion |
+| D — ACTIVE NEGOTIATION | Discussing scope, proposal, pricing or implementation |
+| E — CLIENT / PROJECT | Approved or started |
+| F — WAITING / CLIENT DEPENDENCY | Waiting for content, payment, approval, access, feedback or decision |
 
-A — PROSPECT
+**Waiting does not erase the underlying stage.** A client waiting to provide content remains a client. Retain the underlying stage, dependency owner and return condition. Silence is not approval.
 
-B — COLD CONTACT
+## Metrics
 
-C — WARM / INTERESTED
+| Metric | Definition |
+| --- | --- |
+| Leads researched | Unique businesses checked against the research checklist |
+| Leads contacted | Unique businesses receiving initial outreach |
+| Meaningful response rate | Prospects with substantive replies / contacted prospects |
+| Interest rate | Genuinely interested prospects / contacted prospects |
+| Proposal rate | Prospects receiving proposals / interested prospects |
+| Close rate | Approved projects / proposals |
+| Average project value | Total agreed value of closed projects / closed projects |
+| Time to close | Days from first outreach to approval |
+| Expansion rate | Eligible clients purchasing additional work / eligible clients in a defined window |
 
-D — ACTIVE NEGOTIATION
+Use consistent cohorts, currencies, dates and eligibility windows; mark zero denominators **N/A**. A substantive refusal may count as a meaningful response, but not interest.
 
-E — CLIENT / PROJECT
+**Drafted messages ≠ sent messages. Agreed revenue ≠ collected revenue.** Track them separately. Planning targets are not performance guarantees.
 
-F — WAITING / CLIENT DEPENDENCY
+## Repository structure
 
-Waiting does not erase the underlying relationship stage.
+- [SKILL.md](SKILL.md) — detailed operating instructions.
+- [README.md](README.md) — project overview and usage.
+- [LICENSE](LICENSE) — MIT License.
+- **agents/**
+  - [openai.yaml](agents/openai.yaml) — metadata for compatible skill hosts.
+- **examples/**
+  - [lead-analysis.md](examples/lead-analysis.md) — complete fictional lead assessment.
+  - [cold-outreach.md](examples/cold-outreach.md) — weak versus useful first messages.
+  - [warm-lead-followup.md](examples/warm-lead-followup.md) — interest through pricing and follow-up.
+  - [active-project.md](examples/active-project.md) — delivery, dependencies and scope control.
 
-A client waiting to provide content is still a client.
+## Use cases
 
-Commercial metrics
+- Research a business, inspect its customer journey and decide whether to contact it.
+- Draft cold outreach or continue a warm conversation without repeating the pitch.
+- Prepare follow-ups, structure discovery and move toward pricing and approval.
+- Manage an active project and identify justified expansion.
+- Review pipeline performance and commercial priorities.
 
-The skill can also help structure pipeline measurement.
+## What it does not do
 
-Useful metrics include:
+- Guarantee replies or sales, invent closing probabilities or promise conversion gains.
+- Send outreach automatically or access private information without authorisation.
+- Submit prospect forms, create bookings or execute payments.
+- Assume every website needs redesign or every external tool needs replacement.
+- Turn every opportunity into a CRM, treat followers as budget evidence or present hypotheses as facts.
 
-Metric
+Sending messages or modifying external records requires appropriate tools and explicit authorisation. Research remains limited by source availability and the quality of supplied evidence.
 
-Meaning
+## Privacy
 
-Leads researched
+Keep real pipelines, private conversations, personal contact data, confidential project values, private operational information and identifiable client combinations outside this public repository.
 
-Unique businesses actually analysed
+Included examples are fictional. For issue reports, prefer fictional reproductions; anonymised material must remove both direct identifiers and contextual clues that could identify a real person or business.
 
-Leads contacted
+## Roadmap
 
-Businesses that received outreach
+Potential future improvements—not current capabilities or delivery commitments:
 
-Meaningful response rate
+- More industry-specific examples.
+- Evaluation scenarios for common prospecting mistakes.
+- Additional pipeline output templates.
+- Reference modules for research, outreach and project delivery.
+- Improved compatibility guidance across agent environments.
 
-Substantive responses / contacted prospects
+## Contributing
 
-Interest rate
+Open an issue when the skill makes unsupported assumptions, repeats previous messages, misclassifies a lead, recommends unnecessary scope or misses an important part of the customer journey.
 
-Genuinely interested prospects / contacted prospects
+Include a fictional or safely anonymised reproduction, the observed output and the expected behaviour. Keep proposals focused and consistent with [SKILL.md](SKILL.md).
 
-Proposal rate
+## License
 
-Proposals / interested prospects
+Released under the [MIT License](LICENSE).
 
-Close rate
+If this workflow improves how your agent researches prospects or manages sales conversations, consider giving the repository a star.
 
-Approved projects / proposals
-
-Average project value
-
-Agreed project value / closed projects
-
-Time to close
-
-Time from first outreach to approval
-
-Expansion rate
-
-Existing clients purchasing additional work
-
-Drafted messages and actually sent messages should be tracked separately.
-
-Revenue agreed and revenue collected should also remain separate.
-
-Repository structure
-
-sales-prospecting-pipeline-skill/
-│
-├── SKILL.md
-│   └── Main operating instructions
-│
-├── README.md
-│   └── Project overview and usage
-│
-├── LICENSE
-│   └── MIT License
-│
-├── agents/
-│   └── openai.yaml
-│
-└── examples/
-    ├── lead-analysis.md
-    ├── cold-outreach.md
-    ├── warm-lead-followup.md
-    └── active-project.md
-
-The examples are fictional and are intended to demonstrate behaviour without exposing private prospect or client information.
-
-Example use cases
-
-Use the skill when you want an agent to:
-
-Research and qualify a new business
-Analyse a website and customer journey
-Determine whether a prospect is worth contacting
-Draft cold WhatsApp / DM / email outreach
-Continue an existing sales conversation
-Prepare a follow-up without repeating the pitch
-Structure discovery
-Advance toward pricing and approval
-Manage an active client project
-Identify genuine expansion opportunities
-Review pipeline performance
-
-What this skill deliberately does not do
-
-It does not:
-
-guarantee replies or sales;
-
-invent closing probabilities;
-
-automatically send outreach;
-
-scrape private information;
-
-submit prospect forms;
-
-trigger bookings or payments;
-
-assume every business needs a redesign;
-
-assume every disconnected-looking tool should be replaced;
-
-turn every website opportunity into a CRM project;
-
-treat follower count as proof of budget;
-
-represent hypotheses as verified facts.
-
-Sending messages or modifying external systems requires appropriate tools and explicit authorisation.
-
-Designed for digital service businesses
-
-The workflow is particularly suited to freelancers, agencies and consultants selling:
-
-Websites
-Website redesigns
-Booking and registration flows
-Client / member portals
-Education platforms
-Membership systems
-Digital platforms
-Admin systems
-Integrations
-Operational web applications
-
-The recommended solution should always follow the evidence.
-
-Not the seller's preferred technology.
-
-Privacy
-
-Real prospect pipelines, private conversations and client information should remain outside the public repository.
-
-Public examples should not include:
-
-real prospect identities;
-
-private conversations;
-
-personal contact information;
-
-confidential project values;
-
-private operational information;
-
-identifiable combinations of client details.
-
-All examples included in this repository are fictional.
-
-Roadmap
-
-Potential future improvements include:
-
-More industry-specific examples
-
-Evaluation scenarios for common prospecting mistakes
-
-Additional pipeline output templates
-
-Reference modules for research, outreach and project delivery
-
-Improved compatibility guidance for different agent environments
-
-The objective is to keep the core workflow small, understandable and useful rather than adding complexity for its own sake.
-
-Contributing
-
-Feedback, issues and improvements are welcome.
-
-If you find a situation where the skill:
-
-makes an unsupported assumption;
-
-repeats a previous sales message;
-
-incorrectly classifies a lead;
-
-recommends unnecessary scope;
-
-misses an important part of the customer journey;
-
-open an issue with a fictional or anonymised reproduction when possible.
-
-License
-
-Released under the MIT License.
-
-<div align="center">
-
-Useful?
-
-If this workflow improves how your agent researches prospects or manages sales conversations, consider giving the repository a ⭐.
-
-Better research → better opportunities → better next actions.
-</div>
+**Better research → better opportunities → better next actions.**
