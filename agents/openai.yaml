@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sales Prospecting and Pipeline"
+  short_description: "Research leads, advance deals, and manage digital projects"
+  default_prompt: "Use $sales-prospecting-pipeline-skill to assess the current sales or project stage and recommend the next evidence-based action."
